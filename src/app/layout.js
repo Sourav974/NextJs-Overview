@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <Logo />
+          {/* <Logo /> */}
           <Navigation />
         </header>
         {children}
