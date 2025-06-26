@@ -1,3 +1,4 @@
+import Counter from "../compoents/Counter";
 import Navigation from "../compoents/Navigation";
 
 const page = async () => {
@@ -15,6 +16,8 @@ const page = async () => {
           return <li key={user.id}>{user.name}</li>;
         })}
       </ul>
+
+      <Counter users={data}/>
     </div>
   );
 };
