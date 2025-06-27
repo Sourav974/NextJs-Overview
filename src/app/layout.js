@@ -1,5 +1,5 @@
-import Logo from "./compoents/Logo";
-import Navigation from "./compoents/Navigation";
+import Logo from "./_components/Logo";
+import Navigation from "./_components/Navigation";
 
 export const metadata = {
   title: "The wil oasis",
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          {/* <Logo /> */}
+          <Logo />
           <Navigation />
         </header>
         {children}
