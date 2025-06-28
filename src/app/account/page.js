@@ -7,7 +7,9 @@ import React from 'react'
 
 const page = () => {
   return (
-   <h1>Account</h1>
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+        Welcome, Sourav
+      </h2>
   )
 }
 
